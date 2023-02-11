@@ -1,0 +1,670 @@
+/*
+  Description: HTML5 / BOOTSTRAP / CSS3 One Page
+  Version: 1.0
+*/
+/*=======================================================================
+[Table of contents]
+=========================================================================
+1. Home One
+    i. Header
+    ii. Menu
+    iii. Slider
+    iv. Services
+    v. Latest Project
+    vi. Meet our Team
+    vii. Gross Section
+    viii. Gross Section
+    ix. Pricing table
+    x. News Blog
+    xi. Contact information
+    xii. footer
+*/
+@media (min-width: 992px) and (max-width: 1199px){
+	 /* --------------main menu----------- */
+	.header-area {
+		height: 145px;
+	}
+    .mainMenu > ul > li { margin-right: 30px; }
+	.mainmenu-area{ min-height: 75px; }
+	.mainMenu{ top: -7px; }
+	.sb-search{ top: 8px; }
+	.header-logo {
+		top: -3px;
+		position: relative;
+	}
+	.header-logo h2 {
+		position: relative;
+		width: 236px;
+		font-size: 35px;
+	}
+	/* ----------Slider-area-------------- */
+	.section-padding {
+		top: 41px;
+		position: relative;
+	}
+	/* -------------- Feature-area ----------- */
+	.envelope {
+		width: 40.333333%;
+		left: 10%;
+	}
+	.feature-box-style2 { margin: 0 0 40px; }
+	#features { top: 0px; }
+	/* -------------- Graphic-area ----------- */
+	.graphic-content {
+		top: -20px;
+		position: relative;
+		width: 935px;
+		left: -77px;
+	}
+	/* -------------- services-area ----------- */
+	#services{ padding-bottom: 60px; }
+	.icon_list_connector {
+		left: 10.5%;
+	}
+	/* -------------- Portfolio-area ----------- */
+	.container-less {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.nav-tabs{ width: 612px; }
+	span.hs-bdr{ padding: 1px 50px; }
+	.project-filter {
+		left: 20%;
+		position: relative;
+		padding-bottom: 30px;
+	}
+	.project-list {
+		left: 44px;
+		width: 888px;
+		position: relative;
+		text-align: center;
+	}
+	/* -------------- About-us-area ----------- */
+	#about-us{
+		top: 0px;
+		bottom: 50px;
+	}
+	.circular {
+		width: 450px;
+		height: 450px;
+	}
+	.more-about { margin: 40px 0px; }
+	/* -------------- Team-area ----------- */
+	.envelopes {
+		width: 40.333333%;
+		left: 15%;
+	}
+	.team-member { padding-bottom: 40px; }
+	.our-skil { width: 40%; }
+	.history-area { margin-left: 2px; }
+	.price-area { padding-bottom: 40px; }
+	/* -------------- Blog-area ----------- */
+	.news-box {
+		width: 650px;
+		left: calc(50% - 329px);
+	}
+	/* -------------- Footer-Top-area ----------- */
+	.footer-top-area h4 { width: 58%; }
+	.quick-link h4:after, .right-side h4:after {
+		top: 31px;
+		left: 15px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/* --------------Header area----------- */
+	#info {
+		margin-top: 28%;
+		width: 139px;
+	}
+	.language-box {
+		margin-top: 2%;
+		position: relative;
+		width: 52%;
+		left: 20%;
+		text-align: center;
+	}
+	.ui-dropdown-list ul { right: 0px; }
+	.social-icons ul { margin-top: 7%; }
+	.social-icons ul li { margin-left: 5px; }
+	.header-logo h2 {
+		width: 234px;
+		font-size: 35px;
+	}
+	/* --------------main menu----------- */
+	.sb-search { display: none; }
+	.mainMenu {
+		position: relative;
+		width: 95%;
+	}
+	.mainMenu ul {
+		float: none;
+		display: none;
+		margin-bottom: 20px;
+		background: #d24d57;
+	}
+	.mainMenu ul li {
+		float: none;
+		margin-right: 0;
+		padding: 22px 0 21px;
+		text-align: center;
+	}
+	.menuButton { top: -40px; }
+	.header-logo {
+		top: 6px;
+		position: relative;
+	}
+	.slider-area {
+		z-index: -1;
+		position: relative;
+	}
+	/* --------------Service Area----------- */
+	.service-content {
+		width: 280px;
+		position: relative;
+	}
+	.service-list {
+		width: 360px !important;
+	}
+	.icon_list_connector {
+		left: 50px;
+	}
+	/* --------------Graphic Area----------- */
+	.graphic-content {
+		top: -40px;
+		position: relative;
+	}
+	/* -------------- Portfolio-area ----------- */
+	.project-filter { left: 60px; }
+	.envelopes {
+		width: 40%;
+		left: 80px;
+	}
+	/* -------------- About-us-area ----------- */
+	#about-us{
+		top: 0px;
+		bottom: 50px;
+	}
+	.circular {
+		width: 400px;
+		height: 400px;
+		display: inline-block;
+	}
+	.more-about { margin: 40px 0px; }
+	.features-list {
+		width: 480px;
+		display: inline-block;
+		left: calc(50% - 217px);
+		position: relative;
+	}
+	/* -------------- Team-area ----------- */
+	.team-member { padding-bottom: 30px; }
+	.project-list{ text-align: center; }
+	.container-less {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.envelopes2 {
+		top: -50px;
+		left: -110px;
+	}
+	.our-histry { width: 25%; }
+	.counter-area { padding-bottom: 30px; }
+	.gross-area { padding-bottom: 60px; }
+	.price-area { padding-bottom: 30px; }
+	.pricing-table-area { padding: 65px 0px 0px; }
+	/* -------------- Blog-area ----------- */
+	.news-area { padding: 60px 0px 0px; }
+	.news-box {
+		margin: 0px 0px 50px 0px;
+	}
+	.news-text {
+		width: 54%;
+	}
+	/* -------------- Footer-area ----------- */
+	.footer-top-area h4 { width: 77%; }
+	.footer-social ul { margin-top: 6% !important; }
+}
+@media (min-width: 481px) and (max-width: 767px){
+	/* -------------- Header-area ----------- */
+	#info {
+		margin-top: 24px;
+		position: absolute;
+	}
+	.language-box { display: none; }
+	.social-icons ul { margin-top: 6%; }
+	.social-icons ul li { margin-left: 5px; }
+	/* -------------- Menu-area ----------- */
+	.header-logo h2 {
+		width: 234px;
+		font-size: 35px;
+	}
+	.sb-search {
+		display: none;
+		position: absolute;
+	 }
+	.mainMenu {
+		position: relative;
+		padding-bottom: 15px;
+	}
+	.mainMenu ul {
+		float: none;
+		display: none;
+		background: #d24d57;
+	}
+	.mainMenu ul li {
+		float: none;
+		margin-right: 0;
+		padding: 22px 0 21px;
+		text-align: center;
+	}
+	.menuButton { top: -40px; }
+	.header-logo {
+		top: 6px;
+		position: relative;
+	}
+	nav.mainMenu { width: 95%; }
+	/* -------------- Slider-area ----------- */
+	.slider-area {
+		z-index: -1;
+		position: relative;
+	}
+	.carousel-captions h1 { font-size: 40px; }
+	/* -------------- Feature-area ----------- */
+	.section-padding { padding: 50px 0px 0px; }
+	.feature-box-style2 .feature-box-containt { width: 90%; }
+	.feature-box-containt p {
+		max-width: none;
+		width: 90%;
+	}
+	.feature-box-style2:hover span { display: none; }
+	/* -------------- Graphic-area ----------- */
+	.graphic-content h2{ font-size: 30px; }
+	.graphic-content{
+		position: relative;
+		top: -35px;
+	}
+	/* -------------- Services-area ----------- */
+	.service-content {
+		text-align: right;
+		margin-right: 30px;
+		width: 334px;
+		position: relative;
+		left: calc(50% - 190px);
+		padding-bottom: 150px;
+	}
+	.icon_list_connector {
+		left: 11%;
+	}
+	/* -------------- About-us-area ----------- */
+	#about-us{
+		top: 0px;
+		bottom: 50px;
+	}
+	.circular {
+		width: 400px;
+		height: 400px;
+		display: inline-block;
+	}
+	.more-about { margin: 40px 0px; }
+	.features-list {
+		width: 440px;
+		display: inline-block;
+		left: calc(50% - 217px);
+		position: relative;
+	}
+	/* -------------- Team-area ----------- */
+	a#prev, a#next{ display: none; }
+	.project-filter {
+		width: 100%;
+		left: -10px;
+	}
+	.project-filter ul.project-menu {
+		width: 99%;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		background-color: #252525;
+	}
+	.project-filter ul.project-menu li {
+		background-color: #ffffff;
+		text-align: center;
+		margin: 0px -4px 25px 0px;
+	}
+	li.filter.item.pro-active { background-color: #d24d57; }
+	.project-list{ text-align: center; }
+	.container-less {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.history-area { margin: 0px 0px 60px 0px; }
+	.our-histry { width: 34%; }
+	.nav-tabs {
+		width: 100%;
+		text-align: center;
+		background-color: #252525;
+	}
+	.nav-tabs>li {
+		float: none;
+		background-color: #b7b7b7;
+		margin-bottom: 25px;
+		margin-right: 0px;
+		display: inline-block;
+	}
+	span.hs-bdr {
+		border-left: none;
+		border-right: none;
+	}
+	.team-member {
+		padding-bottom: 0px;
+		left: calc(50% - 130px);
+		position: relative;
+		margin: 20px 0px; 
+	}
+	.price-tb {
+		margin: 20px 0px;
+		padding-bottom: 0px;
+		left: calc(50% - 130px);
+		position: relative;
+	}
+	.counter-area { margin: 20px 0px; }
+	.counter-area h6 { font-size: 13px; }
+		/* -------------- Blog-area ----------- */
+	.news-box {
+		height: initial;
+		width: 270px;
+		left: calc(50% - 135px);
+	}
+	.news-text {
+		padding: 25px 20px;
+		z-index: 0;
+		float: left;
+		width: 100%;
+	}
+	.news-box > .news-image {
+		position: relative;
+		z-index: 0;
+		width: 100%;
+	}
+	.news-box > .news-image:before {
+		display: none;
+	}
+	.news-box > .news-image:before {
+		width: 120%;
+		height: 122px;
+		margin-top: -93px;
+		margin-left: -65px;
+		display: block;
+		content: '';
+		background-color: #fff;
+		z-index: 10;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: rotate(-25deg);
+		-moz-transform: rotate(-25deg);
+		-webkit-transform: rotate(-25deg);
+		-ms-transform: rotate(-25deg);
+	}
+	/* -------------- Footer-area ----------- */
+	.copyright-boot {
+		padding: 50px 0px 0px 0px;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.footer-social {
+		float: left;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+	.footer-social ul {
+		margin-top: 0%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.footer-social ul li {
+		margin-left: 0px;
+		float: none;
+	}
+	.footer-social ul li a i { font-size: 20px; }
+	.footer-social { padding: 0px 0px 12px 0px; }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+	/* -------------- Header-area ----------- */
+	.header-area { height: 80px; }
+	#info {
+		margin: 10px 0px 5px 0px;
+		position: relative;
+		width: 100%;
+		text-align: center;
+	}
+	.language-box { display: none; }
+	.social-icons ul { margin-top: 6%; }
+	.social-icons ul li { margin-left: 5px; }
+	/* -------------- Menu-area ----------- */
+	.header-logo h2 {
+		width: 234px;
+		font-size: 30px;
+	}
+	.sb-search {
+		display: none;
+		position: absolute;
+	 }
+	.mainMenu {
+		position: relative;
+		padding-bottom: 15px;
+	}
+	.mainMenu ul {
+		float: left;
+		display: none;
+		background: #d24d57;
+		width: 90%;
+		position: relative;
+		padding: 25px 0px;
+	}
+	.mainMenu ul li {
+		float: none;
+		margin-right: 0;
+		padding: 22px 0 21px;
+		text-align: center;
+	}
+	.menuButton { top: -40px; }
+	.header-logo {
+		top: 6px;
+		position: relative;
+	}
+	/* -------------- Slider-area ----------- */
+	.slider-area {
+		z-index: -1;
+		position: relative;
+	}
+	.carousel-captions h1 { font-size: 40px; }
+	.carousel-captions {
+		top: calc(50% - 350px/2);
+	}
+	/* -------------- Feature-area ----------- */
+	.section-padding { padding: 50px 0px 0px; }
+	.feature-box-style2 .feature-box-containt {
+		width: 80%;
+		left: 5% !important;
+		position: relative;
+	}
+	.feature-box-containt p {
+		max-width: none;
+		width: 90%;
+	}
+	.feature-box-style2:hover span { display: none; }
+	.graphic-content h2{ font-size: 30px; }
+	.graphic-content{
+		position: relative;
+		top: -75px;
+	}
+	/* -------------- Services-area ----------- */
+	.service-content {
+		text-align: right;
+		margin-right: 30px;
+		width: 260px;
+		position: relative;
+		left: calc(50% - 140px);
+		padding-bottom: 150px;
+	}
+	.icon_list_connector {
+		left: 12%;
+		top: 90px;
+	}
+	/* -------------- About-us-area ----------- */
+	#about-us{
+		top: 0px;
+		bottom: 50px;
+	}
+	.circular {
+		width: 260px;
+		height: 260px;
+		display: inline-block;
+	}
+	.more-about {
+		margin: 40px 0px;
+		display: inline;
+}
+	.features-list {
+		width: 291px;
+		display: inline-block;
+		left: calc(50% - 140px);
+		position: relative;
+	}
+	/* -------------- Team-area ----------- */
+	a#prev, a#next{ display: none; }
+	.project-filter {
+		width: 100%;
+		left: -10px;
+	}
+	.project-filter ul.project-menu {
+		width: 99%;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+		background-color: #252525;
+	}
+	.project-filter ul.project-menu li {
+		background-color: #ffffff;
+		text-align: center;
+		margin: 0px -4px 25px 0px;
+	}
+	li.filter.item.pro-active { background-color: #d24d57; }
+	.project-list{ text-align: center; }
+	.container-less {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	.container-less img { padding: 0px 0px 6px 0px; }
+	.history-area { margin: 0px 0px 60px 0px; }
+	.our-histry { width: 50%; }
+	.our-skil { width: 50%; }
+	.nav-tabs {
+		width: 100%;
+		text-align: center;
+		background-color: #252525;
+	}
+	.nav-tabs>li {
+		float: none;
+		background-color: #b7b7b7;
+		margin-bottom: 25px;
+		margin-right: 0px;
+		display: inline-block;
+	}
+	span.hs-bdr {
+		border-left: none;
+		border-right: none;
+	}
+	.team-member {
+		padding-bottom: 0px;
+		left: calc(50% - 130px);
+		position: relative;
+		margin: 20px 0px; 
+	}
+	.price-tb {
+		margin: 20px 0px;
+		padding-bottom: 0px;
+		left: calc(50% - 130px);
+		position: relative;
+		
+	}
+	.counter-area { margin: 20px 0px; }
+	/* -------------- Blog-area ----------- */
+	.news-box {
+		height: initial;
+		width: 270px;
+		left: calc(50% - 135px);
+	}
+	.news-text {
+		padding: 25px 20px;
+		z-index: 0;
+		float: left;
+		width: 100%;
+	}
+	.news-box > .news-image {
+		position: relative;
+		z-index: 0;
+		width: 100%;
+	}
+	.news-box > .news-image:before {
+		display: none;
+	}
+	.news-box > .news-image:before {
+		width: 120%;
+		height: 122px;
+		margin-top: -93px;
+		margin-left: -65px;
+		display: block;
+		content: '';
+		background-color: #fff;
+		z-index: 10;
+		position: absolute;
+		top: 0;
+		left: 0;
+		transform: rotate(-25deg);
+		-moz-transform: rotate(-25deg);
+		-webkit-transform: rotate(-25deg);
+		-ms-transform: rotate(-25deg);
+	}
+	/* -------------- Contact-area ----------- */
+	#contact {
+		padding: 0px 0px 0px 15px;
+		position: relative;
+		top: 5%;
+	}
+	.contact-form {
+		width: 90%;
+		height: 500px;
+		position: relative;
+		top: -2px;
+		left: 1%;
+	}
+	/* -------------- Footer-area ----------- */
+	.footer-top-area h4 { width: 62%; }
+	.copyright-boot {
+		padding: 50px 0px 0px 0px;
+		width: 100%;
+		position: relative;
+		text-align: center;
+	}
+	.social-icons {
+		float: left;
+		position: relative;
+		text-align: center;
+		width: 100%;
+	}
+	.social-icons ul {
+		margin-top: 0%;
+		margin: 0px;
+		padding: 0px;
+	}
+	.social-icons ul li {
+		margin-left: 0px;
+		float: none;
+	}
+	.social-icons ul li a i { font-size: 20px; }
+	.footer-social { padding: 0px 0px 12px 0px; }
+
+}
